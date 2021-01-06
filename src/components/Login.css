@@ -1,7 +1,7 @@
 
 
 .login_logo{
-    height: 170px;
+    height: 140px;
 }
 
 
@@ -135,3 +135,11 @@
 	cursor: pointer;
 }
 
+.label{
+	font-size: 13px;
+	color: #606770;
+	/* font-weight: bold; */
+	float: left;
+	margin-left: 2px;
+	margin-bottom: 4px;
+}

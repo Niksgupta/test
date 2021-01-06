@@ -47,12 +47,11 @@ function Login() {
                 <img className="login_logo" alt = "img" src={facebook}></img>
 
             </center> */}
-
-                <label>Email Address</label>
+                <h5 className="label">Email Address</h5>
                 <input type="email" name="field1" placeholder="Enter Email Address" 
                 onChange= {(event)=> setEmail(event.target.value)} />
                 
-                <label>Password</label>
+                <h5 className="label">Password</h5>
                 <input type="password" name="field2" placeholder="Enter Password" 
                 onChange= {(event)=> setPassword(event.target.value)} />
 
@@ -76,3 +75,19 @@ function Login() {
 };
 
 export default Login;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
