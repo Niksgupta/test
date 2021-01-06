@@ -25,7 +25,7 @@ export default function Register() {
         firebase.auth().createUserWithEmailAndPassword(email, password)
           .then((auth) => {
              // Signed in 
-               history.push("/login")
+               history.push("/")
     // ...
   })
 
@@ -91,7 +91,7 @@ export default function Register() {
 
                <center>
                 <div className="sideinfo">
-                        <Link to ="/login" style={{textDecoration : 'none'}}>
+                        <Link to ="/" style={{textDecoration : 'none'}}>
                          <h5 className="rtd-register">Already have an account ? Log In</h5>
                         </Link>
                 </div>
