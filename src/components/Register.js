@@ -60,11 +60,11 @@ export default function Register() {
         <h1>Sign Up</h1>
         
         <h5 className="label">First Name</h5>
-        <input type="name" placeholder="First Name" 
+        <input type="name" placeholder="First Name" value={firstname}
         onChange={(e)=> setFirstName(e.target.value)}  />
          
         <h5 className="label">Last Name</h5>
-        <input type="name" placeholder="Last Name"
+        <input type="name" placeholder="Last Name" value={lastname}
         onChange={(e)=> setLastName(e.target.value)}  />
  
        <h5 className="label">Email Address</h5>
