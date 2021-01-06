@@ -112,7 +112,7 @@ import "firebase/firestore";
 import "../components/Login.css"
 import facebook from "../assets/Facebook.png"
 import {Link, useHistory} from "react-router-dom";
-import { auth, db } from './firebase';
+import { db } from './firebase';
 
 
 export default function Register() {
